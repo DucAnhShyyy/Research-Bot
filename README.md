@@ -21,7 +21,7 @@ docker compose up -d
 ```
 * Check trong Docker Desktop xem image đã hoạt động chưa, các lần sau vào lại chỉ cần
 ```
-docker start {tên image}\
+docker start {tên image}
 ```
 * Tải thư viện:
 ```
@@ -33,3 +33,4 @@ pip install -r dependencies.txt
 ```
 python src.app_gradio
 ```
+** Cần anh em hỗ trợ đoạn src/hybrid_retriever.py: mục đích file này là để search và tìm ra tương đồng giữa query và documents, tuy nhiên đang lỗi do vấn đề phiên bản thư viện => Điều này làm Output của các hàm bị thay đổi**
