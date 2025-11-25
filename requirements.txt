@@ -1,0 +1,15 @@
+fastapi
+uvicorn[standard]
+qdrant-client
+sentence-transformers
+transformers
+torch
+faiss-cpu
+gradio
+pymupdf
+pdfplumber
+pytesseract
+python-multipart
+tqdm
+whoosh
+pytest
