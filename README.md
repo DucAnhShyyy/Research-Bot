@@ -31,6 +31,7 @@ pip install -r dependencies.txt
 ### Bước 4:
 * Chạy web server
 ```
-python src.app_gradio
+python -m src.app_gradio
 ```
-** Cần anh em hỗ trợ đoạn src/hybrid_retriever.py: mục đích file này là để search và tìm ra tương đồng giữa query và documents, tuy nhiên đang lỗi do vấn đề phiên bản thư viện => Điều này làm Output của các hàm bị thay đổi**
+
+**Cần anh em hỗ trợ đoạn src/hybrid_retriever.py: mục đích file này là để search và tìm ra tương đồng giữa query và documents, tuy nhiên đang lỗi do vấn đề phiên bản thư viện => Điều này làm Output của các hàm bị thay đổi**
